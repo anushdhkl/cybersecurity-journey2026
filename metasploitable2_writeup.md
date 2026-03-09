@@ -109,7 +109,8 @@ Getting replies back means the machines can communicate successfully.
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — ping output showing successful replies from 10.0.2.5]*
+<img width="683" height="230" alt="image" src="https://github.com/user-attachments/assets/1ac2b11c-42c6-4521-baca-9c05d6f82d6b" />
+
 
 ---
 
@@ -155,7 +156,8 @@ Every open port is a potential entry point. Each version number can be cross-ref
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — Full nmap output showing all open ports and service versions]*
+<img width="1046" height="584" alt="image" src="https://github.com/user-attachments/assets/9e860827-92f3-4878-be7a-00d6ea6b076e" />
+
 
 ---
 
@@ -208,7 +210,8 @@ msfconsole
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — msfconsole opening with msf6 > prompt visible]*
+<img width="1074" height="822" alt="image" src="https://github.com/user-attachments/assets/8b530341-54d8-4e69-87a1-52f5ada8af00" />
+
 
 ---
 
@@ -231,7 +234,8 @@ The rank **excellent** means Metasploit is highly confident this exploit works r
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — search vsftpd output showing the exploit module and excellent ranking]*
+<img width="1074" height="822" alt="image" src="https://github.com/user-attachments/assets/6efc9c79-be95-4fb8-b7a7-1621e6f7ec14" />
+
 
 ---
 
@@ -319,7 +323,8 @@ exploit
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — Full exploit output showing uid=0(root) and Command shell session opened — THIS IS YOUR PROOF OF EXPLOITATION]*
+<img width="1074" height="822" alt="image" src="https://github.com/user-attachments/assets/d89672c2-55c8-4e24-b3e0-258ca90ac6ef" />
+
 
 ---
 
@@ -345,7 +350,8 @@ Being root means absolute maximum control. There are zero restrictions on readin
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — whoami and id commands showing root]*
+<img width="1089" height="671" alt="image" src="https://github.com/user-attachments/assets/5b6107a5-b8f2-450a-b35d-a2d818d799d6" />
+
 
 ---
 
@@ -373,7 +379,8 @@ cat /etc/shadow
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — /etc/shadow output showing password hashes]*
+<img width="1089" height="671" alt="image" src="https://github.com/user-attachments/assets/f605af4d-f2eb-4205-9964-4380ed3e84eb" />
+
 
 ---
 
@@ -387,7 +394,8 @@ ls /home
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — ls /home output]*
+<img width="962" height="249" alt="image" src="https://github.com/user-attachments/assets/ff1e88bf-444a-4a82-89ec-5c8513f81922" />
+
 
 ---
 
@@ -402,7 +410,8 @@ cat /tmp/pwned.txt
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — pwned.txt created and displayed on screen]*
+<img width="962" height="249" alt="image" src="https://github.com/user-attachments/assets/63d5ed18-3b50-447f-9194-565011a7e83a" />
+
 
 ---
 
