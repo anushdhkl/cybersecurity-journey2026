@@ -72,7 +72,8 @@ Before the attack, two settings were changed on Windows 7 to replicate a real wo
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — VirtualBox showing both Kali and Windows 7 running]*
+<img width="1854" height="1046" alt="image" src="https://github.com/user-attachments/assets/65fb76a0-173f-4c66-87c2-38e8d8326000" />
+
 
 ---
 
@@ -158,7 +159,8 @@ ping 10.0.2.6 -c 4
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — ping showing successful replies from Windows 7]*
+<img width="834" height="681" alt="image" src="https://github.com/user-attachments/assets/3b301357-ea9f-43bf-a45f-64c0c309df5b" />
+
 
 ---
 
@@ -204,7 +206,8 @@ This told us the machine is 32-bit — critical information that affected which 
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — Full nmap output showing port 445 open on Windows 7]*
+<img width="834" height="681" alt="image" src="https://github.com/user-attachments/assets/40c23902-e3ae-42e1-8d94-2da97521d3d5" />
+
 
 ---
 
@@ -218,7 +221,8 @@ msfconsole
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — msfconsole open with msf6 > prompt]*
+<img width="857" height="720" alt="image" src="https://github.com/user-attachments/assets/4ca70cbe-c46b-44c9-88d1-f3cf66153013" />
+
 
 ---
 
@@ -352,7 +356,8 @@ That `meterpreter >` prompt means we are inside Windows 7. 🎉
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — meterpreter > prompt appearing after successful exploitation — THIS IS YOUR PROOF]*
+<img width="857" height="720" alt="image" src="https://github.com/user-attachments/assets/2a862cd3-552b-4df9-924b-7d4631d81969" />
+
 
 ---
 
@@ -439,7 +444,8 @@ type C:\pwned.txt
 
 ### 📸 Screenshot
 
-> *[INSERT SCREENSHOT — pwned.txt created and displayed in Windows shell]*
+> <img width="857" height="720" alt="image" src="https://github.com/user-attachments/assets/18039194-dc03-457f-be00-833f989b3e0d" />
+
 
 ---
 
