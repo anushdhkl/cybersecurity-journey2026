@@ -188,9 +188,6 @@ Anush
 
 Result: `Hello Anush` — normal, nothing weird.
 
-### 📸 Screenshot
-
-> *[INSERT SCREENSHOT — normal name input showing Hello Anush]*
 
 ---
 
@@ -210,10 +207,6 @@ A popup appears saying:
 ```
 You have been hacked
 ```
-
-### 📸 Screenshot
-
-> *[INSERT SCREENSHOT — XSS popup appearing on screen]*
 
 ### What Just Happened
 
@@ -284,9 +277,6 @@ Click Sign Guestbook.
 
 Popup appears. BUT this time it is saved in the database. Every single person who visits this page from now on gets that popup — forever — until the database is reset.
 
-### 📸 Screenshot
-
-> *[INSERT SCREENSHOT — Stored XSS guestbook with script in message box]*
 
 ### Difference From Reflected
 
@@ -341,9 +331,8 @@ Any cookie sent to it will appear here
 
 Leave this terminal running.
 
-### 📸 Screenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36d03fc7-42c8-491e-99a3-8d48c02bcb77" />
 
-> *[INSERT SCREENSHOT — python server running showing Serving HTTP on port 8888]*
 
 ---
 
@@ -390,10 +379,8 @@ You will see:
 ```
 PHPSESSID=ekt7p5vkk3t7bk3u50tmro4933
 ```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad1c54aa-f988-40ad-b938-921d2b8e2f0a" />
 
-### 📸 Screenshot
-
-> *[INSERT SCREENSHOT — terminal showing GET request with stolen PHPSESSID cookie arriving]*
 
 ---
 
@@ -424,10 +411,8 @@ ekt7p5vkk3t7bk3u50tmro4933
 ```
 
 Press Enter. Then press F5 to refresh.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d511e10-bbe9-4cfa-ae42-a9a8755485e1" />
 
-### 📸 Screenshot
-
-> *[INSERT SCREENSHOT — Developer tools showing PHPSESSID value being changed]*
 
 ---
 
@@ -442,9 +427,8 @@ Private window — no saved credentials ✅
 Logged in using ONLY the stolen cookie ✅
 ```
 
-### 📸 Screenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e892e4d2-78e7-4f60-beb7-a8d4dd057187" />
 
-> *[INSERT SCREENSHOT — DVWA home page loaded in private window without any login — this is your proof]*
 
 ---
 
